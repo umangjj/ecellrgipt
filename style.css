@@ -225,3 +225,28 @@ footer{
     text-shadow: 1px 1px 5px orangered;
     transform: 0.4s;
 }
+:root {
+    --head: calc(1rem + 5vh);
+    --para: calc(1.5rem);
+}
+
+
+@media only screen and (max-width: 768px) {
+    .NV h2 {
+        margin-right: 2rem; 
+    }
+
+    .text-c h2 {
+        font-size: 2rem;
+    }
+
+    .text-c p {
+        font-size: 1.5rem;
+    }
+
+    .des {
+        font-size: 1.8rem; 
+    }
+
+
+}
